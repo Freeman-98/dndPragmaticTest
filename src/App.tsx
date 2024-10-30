@@ -81,6 +81,7 @@ function Item({
 				xcss={[itemContentStyles, isDragging ? itemStateStyles.dragging : undefined]}
 			>
 				<Inline space="space.050">
+				<h1>Joel c la come</h1>
 					<input
 						onChange={() => setIsDraggingAllowed((value) => !value)}
 						type="checkbox"
